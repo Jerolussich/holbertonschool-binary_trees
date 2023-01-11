@@ -10,7 +10,7 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 {
 	binary_tree_t *Newnode = NULL, *temp = NULL;
 
-	Newnode = create_node(value);
+	Newnode = mycreate_node(value);
 	if (Newnode == NULL)
 		return (NULL);
 
