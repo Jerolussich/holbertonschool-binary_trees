@@ -20,7 +20,7 @@ binary_tree_t *binary_tree_sibling(binary_tree_t *node)
 		return (NULL);
 	if (my_node->left->n == n)
 		my_node = my_node->right;
-	else if (my_node->left->n == n)
+	else
 		my_node = my_node->left;
 	return (my_node);
 }
